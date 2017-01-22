@@ -2,6 +2,8 @@
     <head>
         <title>django Girls Blog</title>
     </head>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <body>
         <div>
             <h1><a href="">Mohanlal</a></h1>
@@ -10,7 +12,7 @@
         <div>
             <p>date of birth:20/07/12</p>
             <h2><a href="">Films</a></h2>
-            <p>sbhadikam,pulimurugan</p>
+            <!-- <p>sbhadikam,pulimurugan</p> -->
         </div>
 
         <!-- <div>
@@ -20,7 +22,7 @@
         </div> -->
     
         {% for post in s %}
-            {{ post }}
+            <li>{{ post }}</li>
             {% endfor %}
     </body>
 </html>
